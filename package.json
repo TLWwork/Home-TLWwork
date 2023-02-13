@@ -4,7 +4,9 @@
   "description": "acesta este pagina principala",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "parcel home.html",
+    "build": "parcel home.html"
   },
   "repository": {
     "type": "git",
