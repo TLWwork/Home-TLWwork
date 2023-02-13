@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+  flex-wrap: wrap;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  position: absolute;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #070707;
+  letter-spacing: 1px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.aldoilea {
+  background-color: #fff;
+  margin-left: 850px;
+  position: absolute;
+}
+
+.just-navigation {
+  color: #070707;
+  background-color: #000;
+  margin: 5px 150px 0;
+  top: 10%;
+  left: 70%;
+}
+
+@media screen and (max-width: 1400px) {
+  .just-navigation {
+    color: #070707;
+    background-color: #000;
+    margin: 5px 150px 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .just-navigation {
+    color: #070707;
+    background-color: #000;
+    margin: 5px 150px 0 350px;
+  }
+
+  .Nameweb {
+    margin: 60px 60px 60px 360px;
+    font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+    position: absolute;
+  }
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.altreilea {
+  margin-top: 10px;
+}
+
+.line {
+  width: 1050px;
+  border: 1px solid #b6b5b5;
+  margin-top: 50px;
+  position: absolute;
+}
+
+@media screen and (max-width: 380px) {
+  body {
+    margin: 0;
+  }
+
+  ul, li {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .just-navigation {
+    height: 1000px;
+  }
+
+  .navigationfirst {
+    width: initial;
+  }
+}
+
+.alpatrulea {
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 1s;
+  position: fixed;
+}
+
+body {
+  background: #fffcfc;
+  font-family: Montserrat, sans-serif;
+}
+
+.navMenu {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #000;
+  text-transform: uppercase;
+  width: 80px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+}
+
+.navMenu a:hover {
+  color: #070707;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  opacity: 0;
+  background: #000;
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
+  transform: translateX(30px);
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  transform: translateX(30px);
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  transform: translateX(110px);
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  transform: translateX(200px);
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  transform: translateX(285px);
+}
+
+.Nameweb {
+  margin: 60px 60px 60px 150px;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+  position: absolute;
+}
+
+/*# sourceMappingURL=home.6d4756ec.css.map */
