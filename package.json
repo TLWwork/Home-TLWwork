@@ -1,0 +1,22 @@
+{
+  "name": "home-tlwwork",
+  "version": "1.0.0",
+  "description": "acesta este pagina principala",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TLWwork/Home-TLWwork.git"
+  },
+  "author": "Daneil Luntras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TLWwork/Home-TLWwork/issues"
+  },
+  "homepage": "https://github.com/TLWwork/Home-TLWwork#readme",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}
